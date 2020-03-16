@@ -1,3 +1,4 @@
+import { IonButton } from '@ionic/react';
 import React from 'react';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
         <h1>My App</h1>
       </header>
       <main>
-        <p>Add some content here…</p>
+        <IonButton>Click Me</IonButton>
       </main>
     </div>
   );
